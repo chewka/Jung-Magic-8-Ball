@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<script>
+  $(document).ready(function() {
+    $("image").addClass("animated bounce");
+  });
+</script>
+<html>
+<div class="container-fluid">
+<head>
+    <title>Carl Jung</title>
+</head>
+<body>
+    <br>
+    <h1>Jung 8-Ball</h1>
+    <img class="img-responsive" src="jung-face.gif" onclick="newQuote()">
+    <h2>~ click me to find your fortune ~</h2>
+    <h3>
+    <div class="quote-display">
+      <div id="quoteDisplay">
+        <!--Quotes will display here-->
+      </div>
+    </div>
+    </h3>
+    <br>
+    <button class="btn btn-block" onclick="newQuote()">New Quote</button>
+
+    <script src="javascript.js"></script>
+</body>
+</div>
+</html>
